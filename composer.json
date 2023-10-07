@@ -1,0 +1,17 @@
+{
+    "name": "kudaiberdy/type-sanitizer",
+    "description": "Package that validates and normalizes data in accordance with the passed specification",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kudaiberdy\\TypeSanitizer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kudaiberdy",
+            "email": "kudaiberdy.shagirov@gmail.com"
+        }
+    ],
+    "require": {}
+}
