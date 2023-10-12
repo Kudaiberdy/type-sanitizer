@@ -11,9 +11,9 @@ interface Sanitizer
      *
      * @param string|array             $data
      * @param class-string<T>|array<T> $specification
-     * @param bool                     $collectValueExceptions
+     * @param bool                     $nullOnFailure
      *
      * @return T|array<T>|array
      */
-    public function sanitize(string|array $data, string|array $specification, bool $collectValueExceptions = false): mixed;
+    public function sanitize(string|array $data, string|array $specification, bool $nullOnFailure = false): mixed;
 }
